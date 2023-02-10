@@ -74,3 +74,22 @@ align-items: center;
     font-size:30px ;
     font-weight: 900;
 }
+footer{
+    background-color: #0f0f0f;
+    
+}
+.containerSocial{
+
+}
+.social{
+display: flex;
+}
+.rodapeImgs{
+
+}
+.rodapeLinks{
+
+}
+.rodapeCards{
+
+}
