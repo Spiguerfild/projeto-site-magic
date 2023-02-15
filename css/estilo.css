@@ -1,105 +1,206 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body>header{
-    width: 100%;
-    height: 60px;
-    background-color: #0c0f11;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 0 0 0 50px;
+body > header {
+  width: 100%;
+  height: 60px;
+  background-color: #0c0f11;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 0 0 50px;
 }
 
-.logotipo img{
-height: 50px;
+.logotipo img {
+  height: 50px;
 }
-.menu{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.menu a, .menu a:visited{
-color: white;
-text-decoration: none;
-text-transform: uppercase;
+.menu a,
+.menu a:visited {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.banner img{
-    width: 100%;
+.banner{
+height: 430px;
 }
-.nossosJogos{
-    background-image: url('../img/bg-nossos-jogos.jpg');
-    padding: 100px;
+.img-2{
+    width: 90%;
 }
-.nossosJogos h1{
+.banner .img_1 {
+    
+width: 100%;
+}
+.banner .div-bnr {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    position:relative;
+    top: -300px;
+    right: -100px;
+    width: 37%;
+}
+.div-bnr h3{
     text-align: center;
-    margin: 0 0 100px 0 ;
-    font-size: 50px;
-    font-weight: 900;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: sans-serif;
+    width: 80%;
 }
-.artigos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    width: 100%;
+.banner-button{
+    padding: 15px 40px;
+    border-radius: 7px;
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #c86c2d;
 }
-.cartao{
-    width: 300px;
-    height: 400px;
-background-color: #ffffff;
-display: flex;
-flex-direction:column;
-gap: 24px;
-align-items: center;
+.nossosJogos {
+  background-image: url("../img/bg-nossos-jogos.jpg");
+  padding: 100px;
+}
+.nossosJogos h1 {
+  text-align: center;
+  margin: 0 0 100px 0;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.artigos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+.cartao {
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.cartao p {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 20px;
+}
+.cartao a {
+  color: #ea4b12;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.cartao h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+footer {
+  background-color: #0f0f0f;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.containerSocial {
+    margin: 40px 0 20px 0;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
 
+.social {
+  display: flex;
+  flex-direction: column;
 }
-.cartao p{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:17px;
-    padding: 20px;
+.social h2 {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
-.cartao a{
-    color: #ea4b12;
-    text-decoration: none;
-    margin-bottom: 5px;
+.icons-a {
+  display: flex;
+  text-align: center;
 }
-.cartao h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:30px ;
-    font-weight: 900;
-}
-footer{
-    background-color: #0f0f0f;
-    width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: #ffffff;
-}
-.containerSocial{
-width: 95%;
-border: 1px solid blue;
-display: flex;
-}
-.social{
-display: flex;
-}
-.rodapeImgs{
-
+.icons-a a {
+  background-color: #242424;
+  border-radius: 50%;
+  padding: 12px 0 0 0;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
 }
 
-/*-------------------------------*/
-.rodapeLinks{
 
-}
 /*-------------------------------*/
 .rodapeCards{
+    margin: 0 60px 0 0;
+}
+.rodapeCards h2 {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.rodapeCards p {
+    font-size: 12px;
+    padding: 1.5px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+/*--------------------------------*/
+.rodapeImgs{
+    position: relative;
+    margin: 20px 0 0 0;
+    right: -175px;
+}
+.rodapeImgs  img{
+    margin: 10px 15px;
+}
 
+/*-------------------------------*/
+.rodapeLinks {
+ background-color: #242424;
+ padding: 10px ;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 50px;
+}
+.rodapeLinks a{
+   font-family: sans-serif;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.direitos-autorais{
+    font-family: sans-serif;
+    margin: 20px 0 12px 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
